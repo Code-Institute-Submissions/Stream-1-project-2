@@ -72,7 +72,7 @@ Further clicking on Close Me will close the window.
 - On the Our Work page if you start scrolling down a prompt will appear giving you the option to go back to the top. For test purposes the page was scrolled all the way down then the Return Back to Top prompt was clicked. Once clicked the page was back in the top part as expected.
 
 ### Test 9
-- Further testing was done by shrinking the the browser page and as expected. The navbar change dynamically to include te 3 bars icon. Clicking on the 3 bar icon reveals the navbar in vertical.
+- Further testing was done by shrinking the the browser page and as expected. The navbar change dynamically to include the 3 bars icon. Clicking on the 3 bar icon reveals the navbar in vertical.
 
 ### Test 10
 - The website was tested in mobile environment using different screen sizes devices. 
