@@ -45,25 +45,34 @@ Again this is done to aid the user get back to the navigation quicker rather tha
 
 - In this Section we will cover the various tests for the website.
 
-- Test 1
-Clicking on Home button while on the Home page does nothing unless Home is clicked from the other tabs in the Nav Bar.
-- Test 2
-Clicking on About us takes you to the About us page no matter where in the site you might be. 
-- Test 3
-Clicking on Our Work takes you to the Our Work page no matter where in the site you might be.
-- Test 4
-Clicking on Latest projects does nothing instead a dropdown appears where you can choose any of 3 from Project 1, Project 2 & Project 3.
-- Test 5 
-Clicking Contatc brings you to the Contatc page no matter where in the site you might be.
-- Test 6
-Clicking on the left handed chevron takes you to the left of the carousel.
+### Test 1
+- Clicking on Home button while on the Home page does nothing unless Home is clicked from the other tabs in the Nav Bar.
+
+### Test 2
+- Clicking on About us takes you to the About us page no matter where in the site you might be. 
+
+### Test 3
+- Clicking on Our Work takes you to the Our Work page no matter where in the site you might be.
+
+### Test 4
+- Clicking on Latest projects does nothing instead a dropdown appears where you can choose any of 3 from Project 1, Project 2 & Project 3.
+
+### Test 5 
+- Clicking Contatc brings you to the Contatc page no matter where in the site you might be.
+
+### Test 6
+- Clicking on the left handed chevron takes you to the left of the carousel.
 Clicking on the right sided chevron takes to the right of the carousel.
-- Test 7
-Clicking on Learn More! will bring about a popover window. Inside the popover click on the hyperlink calle the link brings you to the Our Work page and clicking on form bring you to the contact page.
+
+### Test 7
+- Clicking on Learn More! will bring about a popover window. Inside the popover click on the hyperlink calle the link brings you to the Our Work page and clicking on form bring you to the contact page.
 Further clicking on Close Me will close the window.
-- Test 8
-On the Our Work page if you start scrolling down a prompt will appear giving you the option to go back to the top. For test purposes the page was scrolled all the way down then the Return Back to Top prompt was clicked. Once clicked the page was back in the top part as expected.
-- Test 9
-Further testing was done by shrinking the the browser page and as expected. The navbar change dynamically to include te 3 bars icon. Clicking on the 3 bar icon reveals the navbar in vertical.
-- Test 10
-The website was tested in mobile environment using different screen sizes devices. 
+
+### Test 8
+- On the Our Work page if you start scrolling down a prompt will appear giving you the option to go back to the top. For test purposes the page was scrolled all the way down then the Return Back to Top prompt was clicked. Once clicked the page was back in the top part as expected.
+
+### Test 9
+- Further testing was done by shrinking the the browser page and as expected. The navbar change dynamically to include te 3 bars icon. Clicking on the 3 bar icon reveals the navbar in vertical.
+
+### Test 10
+- The website was tested in mobile environment using different screen sizes devices. 
