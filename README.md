@@ -58,14 +58,14 @@ Again this is done to aid the user get back to the navigation quicker rather tha
 - Clicking on Latest projects does nothing instead a dropdown appears where you can choose any of 3 from Project 1, Project 2 & Project 3.
 
 ### Test 5 
-- Clicking Contatc brings you to the Contatc page no matter where in the site you might be.
+- Clicking Contact brings you to the Contact page no matter where in the site you might be.
 
 ### Test 6
 - Clicking on the left handed chevron takes you to the left of the carousel.
 Clicking on the right sided chevron takes to the right of the carousel.
 
 ### Test 7
-- Clicking on Learn More! will bring about a popover window. Inside the popover click on the hyperlink calle the link brings you to the Our Work page and clicking on form bring you to the contact page.
+- Clicking on Learn More! will bring about a popover window. Inside the popover click on the hyperlink called the link brings you to the Our Work page and clicking on form bring you to the contact page.
 Further clicking on Close Me will close the window.
 
 ### Test 8
