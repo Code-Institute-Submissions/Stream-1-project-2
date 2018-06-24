@@ -120,6 +120,7 @@ iframe {
     display: block;
     margin: auto;
 }
+
 .fa {
   padding: 15px;
   font-size: 20px;
@@ -308,8 +309,7 @@ background-color: #292E37;
   </div>
   </div>
   <div class="item">
-  <iframe width="560" height="315" src="http://www.youtube.com/embed/23gYp4fIkNQ" alt="video1" frameborder="0" allowfullscreen></iframe>
-  
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/23gYp4fIkNQ" alt="video1" frameborder="0" allowfullscreen=""></iframe>
   </div>
   </div>
   
@@ -380,5 +380,26 @@ $(function () {
 $(function () {
   $('[data-toggle="dropdown"]').dropdown()
 });
+// Find all iframes
+var $iframes = $( "iframe" );
+ 
+// Find &#x26; save the aspect ratio for all iframes
+$iframes.each(function () {
+  $( this ).data( "ratio", this.height / this.width )
+    // Remove the hardcoded width &#x26; height attributes
+    .removeAttr( "width" )
+    .removeAttr( "height" );
+});
+ 
+// Resize the iframes when the window is resized
+$( window ).resize( function () {
+  $iframes.each( function() {
+    // Get the parent container&#x27;s width
+    var width = $( this ).parent().width();
+    $( this ).width( width )
+      .height( width * $( this ).data( "ratio" ) );
+  });
+// Resize to fix all iframes on page load.
+}).resize();
 </script>
 </html>
